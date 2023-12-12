@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 10px; */
+  background-color: rgb(66, 59, 59);
+}
+.logo {
+  cursor: pointer;
+  background-color: #edf0f1;
+  margin-left: 2rem;
+  height: 30px;
+  margin-top: 2rem 2rem;
+}
+.nav--links {
+  list-style: none;
+}
+.nav--links li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 1.5rem;
+}
+
+.navbar,
+a {
+  color: #ebe3e3;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar,
+a:hover {
+  color: white;
+}
+/* 
+.nav--links a:hover {
+  transition: all 0.3s ease 0;
+  color: yellow;
+} */
+.cta {
+  /* background-color: black; */
+  padding: 9px 25px;
+  border: 2px solid rgb(114, 100, 192);
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  border-radius: 10px;
+  background-color: rgb(70, 45, 97);
+  margin-right: 2rem;
+}
+.cta-1 {
+  /* background-color: black; */
+  padding: 9px 25px;
+  border: 2px solid rgb(78, 62, 226);
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #222222;
+  background-color: black;
+  color: #edf0f1;
+  max-width: 100%;
+  /* background-image: url(./pexels-brett-sayles-4508742\\(1\).jpg); */
+  height: 600px;
+}
+.work-box {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.work-box-text {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+.work-box-img {
+  max-width: 600px;
+}
+.work-box-img:hover,
+.work-box-img:focus {
+  transform: scale(0.9);
+}
+
+.work-box-img img {
+  max-width: 100%;
+}
+
+.work-box-links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.customer-story {
+  display: flex;
+  gap: 1.3rem;
+  margin: 10rem;
+  margin-left: 4rem;
+  font-size: 1.7rem;
+}
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+.asma {
+  color: rgb(162, 0, 255);
+  margin-top: 0.3rem;
+}
+.asma:hover {
+  text-decoration: underline;
+  color: rgb(162, 0, 255);
+}
+.work {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url(./pexels-codioful-\(formerly-gradienta\)-7130500jpg);
+}
